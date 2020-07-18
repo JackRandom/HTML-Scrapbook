@@ -10,13 +10,21 @@ table, th, td {
     border: 1px soliid black;
     border-collapse: collapse;
 }
-
+.monospace {
+  font-family: monospace;
+}
 </style>
 
 <body>
 
 <h1>I am an h1</h1> <!-- Different header elements and their various sizes, there can only be 6-->
 
+<h2>Inline Elements</h2>
+
+<p><em>Sometimes</em>, you need to draw attention to a particular word or
+phrase.</p>
+<p>Other times you need to <strong>strongly</strong>emphasize the importance
+  of a word or phrase.</p>
 <h2>Lists</h2>
 
         <p>This is how you make an unordered list:</p>
@@ -28,14 +36,15 @@ table, th, td {
         </ul>
 
 <h3>Different kinds of elements</h3>
-
-<a1> Displaying text a1 element</a1>
+<div class="monospace">
+<a1 > Displaying text a1 element</a1>
 <p>I am a paragraph block </p>
 <q> I am a quotes block </q>
 <span> I am a span </span>
 <br> I am a br block </br>
 <code> I am a code block</code>
 <div> this is a div </div>
+</div>
 
 <h4>there is a button below this h4 heading</h4>
 
@@ -80,6 +89,14 @@ table, th, td {
             </ul>
            </form>
 
+           <form>
+            <div>
+            <input type="search" placeholder="Search here ...">
+            <input type="submit" value="Search" class="button">
+            
+            </div>
+                      </form>
+
            <section>
             <button name= "button">Standard Button</button>  
          </section>
@@ -87,7 +104,7 @@ table, th, td {
          <img src="https://bit.ly/fcc-relaxing-cat" alt="relaxing cat">
     <a href="https://mymodernmet.com/banye-surprised-cat/"> Surprised Cat</a>
 
-    <a href=”index.html”>Home</a>
+    <a href="index.html">Home</a>
 
 </body>
 </html>
