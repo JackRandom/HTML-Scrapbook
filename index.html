@@ -5,57 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-scrapbook</title>
 </head>
+<style>
+table, th, td {
+    border: 1px soliid black;
+    border-collapse: collapse;
+}
+
+</style>
+
 <body>
 
 <h1>I am an h1</h1> <!-- Different header elements and their various sizes, there can only be 6-->
 
-<h2>I am an h2</h2>
+<h2>Lists</h2>
 
-<h3>I am an h3</h3>
+        <p>This is how you make an unordered list:</p>
+        
+        <ul>
+          <li>Add a "ul" element (it stands for unordered list)</li>
+          <li>Add each item in its own "li" element</li>
+          <li>They don't need to be in any particular order</li>
+        </ul>
 
-<h4>I am an h4</h4>
-
-<h5>I am an h5</h5>
-
-<h6>I am an h6</h6>
+<h3>Different kinds of elements</h3>
 
 <a1> Displaying text a1 element</a1>
-
-<a2>
-
 <p>I am a paragraph block </p>
-
-<span> I am a span block </span>
-
-<q> I am a q block </q>
-    
-<code> I am a code black</code>
-    
+<q> I am a quotes block </q>
+<span> I am a span </span>
 <br> I am a br block </br>
-
-</a2>
-
-
-<a3> Compartmentalisation </a3>
-
-
+<code> I am a code block</code>
 <div> this is a div </div>
 
-<span> this is another span </span>
+<h4>there is a button below this h4 heading</h4>
 
-<a4>Lists</a4>
+<section>
+    <button name= "button">Standard Button</button>  
+ </section>
 
-<ul> <!-- unordered list-->
+<h5>I am an h5 with a table under me</h5>
 
-    <li></li>
-    
-    </ul>
+<table border="1">
+    <tr> 
+        <th>Name</th> 
+        <th>Favorite Color</th> 
+    </tr> 
+    <tr> 
+        <td>Andrew</td> 
+        <td>Blue</td> 
+    </tr> 
+    <tr> 
+        <td>Carole</td> 
+        <td>Purple</td> 
+    </tr> 
+</table>
 
-    <ol> <!-- ordered list-->
+<h6>Form template</h6>
 
-        <li></li>
-        
-        </ol> 
         
         <form action="/my-handling-form-page" method="post"> <!-- form element-->
             <ul>
@@ -77,25 +83,8 @@
            <section>
             <button name= "button">Standard Button</button>  
          </section>
-
-    <img src="cat.png" alt="Surprised Cat" />
-
-    <table>
-        <tr> 
-            <th>Name</th> 
-            <th>Favorite Color</th> 
-        </tr> 
-        <tr> 
-            <td>Andrew</td> 
-            <td>Blue</td> 
-        </tr> 
-        <tr> 
-            <td>Carole</td> 
-            <td>Purple</td> 
-        </tr> 
-    </table>
-
-
+         <img src="https://bit.ly/fcc-relaxing-cat" alt="relaxing cat">
+    <a href="https://mymodernmet.com/banye-surprised-cat/"> Surprised Cat</a>
 
     <a href=”index.html”>Home</a>
 
