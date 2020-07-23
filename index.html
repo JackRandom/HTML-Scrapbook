@@ -7,11 +7,22 @@
 </head>
 <style>
 table, th, td {
-    border: 1px soliid black;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 .monospace {
   font-family: monospace;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  border: 10px;
+  border-color: black;
+  column-gap: 10px;
+  row-gap: 15px;
 }
 </style>
 
@@ -108,5 +119,21 @@ phrase.</p>
 
     <a href="index.html">Home</a>
 
+    <h2>Grid</h2>
+<div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>  
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>
+  <div>13</div>
+</div>
 </body>
 </html>
